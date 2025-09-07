@@ -1,106 +1,120 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mindstep Privacy Policy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f9f9f9;
-            color: #333;
-            line-height: 1.6;
-        }
-        h1, h2 {
-            color: #222;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 30px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            border-radius: 10px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        a {
-            color: #0066cc;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Mindstep</title>
+  <meta name="description" content="Privacy Policy for the Mindstep mobile application by Melikşah Selvi.">
+  <meta name="author" content="Melikşah Selvi">
+  <style>
+    :root{
+      --bg:#0f172a;          /* slate-900 */
+      --card:#111827;        /* gray-900  */
+      --text:#e5e7eb;        /* gray-200  */
+      --muted:#94a3b8;       /* slate-400 */
+      --accent:#22d3ee;      /* cyan-400  */
+      --border:#1f2937;      /* gray-800  */
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji,sans-serif;line-height:1.6}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:900px;margin:0 auto;padding:48px 20px}
+    header{margin-bottom:28px}
+    h1{font-size:clamp(1.8rem,2.5vw,2.4rem);line-height:1.2;margin:0 0 12px}
+    h2{font-size:1.25rem;margin:28px 0 10px}
+    p,li{color:var(--text)}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px}
+    .muted{color:var(--muted)}
+    .grid{display:grid;gap:16px}
+    .toc{border-left:3px solid var(--accent);padding-left:14px;margin:18px 0}
+    code{background:#0b1220;padding:2px 6px;border-radius:6px}
+    footer{margin-top:36px;font-size:.95rem;color:var(--muted)}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"PrivacyPolicy",
+    "name":"Mindstep Privacy Policy",
+    "inLanguage":"en",
+    "dateEffective":"2025-09-07",
+    "publisher":{"@type":"Person","name":"Melikşah Selvi"},
+    "url":"https://your-domain.example/privacy.html",
+    "email":"meliksahselvi.engineer@gmail.com"
+  }
+  </script>
 </head>
 <body>
-<div class="container">
-    <h1>Mindstep Privacy Policy</h1>
-    <p><strong>Effective Date:</strong> [insert publication date here]</p>
-    <p><strong>Developer:</strong> Melikşah Selvi</p>
+  <main class="wrap">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="muted">Effective date: <strong>2025-09-07</strong> &middot; App: <strong>Mindstep</strong> &middot; Publisher: <strong>Melikşah Selvi</strong></p>
+    </header>
 
-    <h2>1. Introduction</h2>
-    <p>At Mindstep (“App”), we take your privacy seriously. This privacy policy explains what personal data we collect through the App, how we use it, store it, and protect it.</p>
+    <section class="card">
+      <p>Melikşah Selvi built the <strong>Mindstep</strong> app as a <strong>Free</strong> app. This SERVICE is provided by Melikşah Selvi at no cost and is intended for use as is.</p>
+      <p>This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decides to use my Service.</p>
+      <p>If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.</p>
+      <p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, unless otherwise defined in this Privacy Policy.</p>
 
-    <h2>2. Data We Collect</h2>
-    <p>The following personal data are collected within the App:</p>
-    <ul>
-        <li>First Name</li>
-        <li>Last Name</li>
-        <li>Date of Birth</li>
-        <li>Gender</li>
-        <li>Email Address</li>
-        <li>Step counter data</li>
-        <li>Crash and error reports related to app usage (via Crashlytics)</li>
-    </ul>
+      <div class="toc">
+        <strong>Contents</strong>
+        <ul>
+          <li><a href="#collection">Information Collection and Use</a></li>
+          <li><a href="#log-data">Log Data</a></li>
+          <li><a href="#cookies">Cookies</a></li>
+          <li><a href="#providers">Service Providers</a></li>
+          <li><a href="#security">Security</a></li>
+          <li><a href="#links">Links to Other Sites</a></li>
+          <li><a href="#children">Children’s Privacy</a></li>
+          <li><a href="#changes">Changes to This Privacy Policy</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
 
-    <h2>3. Purpose and Use of Data</h2>
-    <p>The collected data is used for the following purposes:</p>
-    <ul>
-        <li>Personalizing your app experience</li>
-        <li>Performing gender- and age-based analyses for calorie calculations</li>
-        <li>Sending birthday and motivational notifications</li>
-        <li>Providing weekly analysis reports for premium subscribers</li>
-        <li>Improving app security and performance (error tracking and analysis)</li>
-        <li>Recording and analyzing step counter data</li>
-    </ul>
+      <h2 id="collection">Information Collection and Use</h2>
+      <p>For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.</p>
 
-    <h2>4. Data Storage</h2>
-    <p>All collected data is securely stored on Firebase infrastructure.</p>
+      <h2 id="log-data">Log Data</h2>
+      <p>I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol ("IP") address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.</p>
 
-    <h2>5. Data Sharing</h2>
-    <p>Personal data is not shared with third parties. Data is used solely to fulfill the functions of the app described above.</p>
+      <h2 id="cookies">Cookies</h2>
+      <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.</p>
+      <p>This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
 
-    <h2>6. User Rights</h2>
-    <p>Under KVKK and GDPR, users have the rights to:</p>
-    <ul>
-        <li>Access their personal data,</li>
-        <li>Request corrections to their data,</li>
-        <li>Request deletion of their data,</li>
-        <li>Object to the processing of their data.</li>
-    </ul>
-    <p>You can exercise these rights via the app or by contacting us at <a href="mailto:meliksahselvi.engineer@gmail.com">meliksahselvi.engineer@gmail.com</a>.</p>
+      <h2 id="providers">Service Providers</h2>
+      <p>I may employ third-party companies and individuals due to the following reasons:</p>
+      <ul>
+        <li>To facilitate our Service;</li>
+        <li>To provide the Service on our behalf;</li>
+        <li>To perform Service-related services; or</li>
+        <li>To assist us in analyzing how our Service is used.</li>
+      </ul>
+      <p>I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</p>
 
-    <h2>7. Notifications (Push Notifications)</h2>
-    <p>The app may send:</p>
-    <ul>
-        <li>Birthday celebration notifications,</li>
-        <li>Motivational messages,</li>
-        <li>Weekly analysis reports for premium subscribers.</li>
-    </ul>
-    <p>Notification permissions can be managed from your device settings.</p>
+      <h2 id="security">Security</h2>
+      <p>I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.</p>
 
-    <h2>8. Health and Activity Data</h2>
-    <p>The app collects step counter data to perform analyses based on your steps and movements. This data is used solely for in-app analyses and is not shared with third parties.</p>
+      <h2 id="links">Links to Other Sites</h2>
+      <p>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
 
-    <h2>9. Security</h2>
-    <p>Appropriate technical and administrative measures are taken to ensure your data security. Data stored on Firebase is encrypted and transmitted over secure connections.</p>
+      <h2 id="children">Children’s Privacy</h2>
+      <p>I do not knowingly collect personally identifiable information from children. I encourage all children to never submit any personally identifiable information through the Application and/or Services. I encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to us through the Application and/or Services, please contact us. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).</p>
 
-    <h2>10. Policy Updates</h2>
-    <p>This privacy policy may be updated from time to time. Updates will be announced within the app.</p>
+      <h2 id="changes">Changes to This Privacy Policy</h2>
+      <p>I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.</p>
+      <p class="muted">This policy is effective as of <strong>2025-09-07</strong>.</p>
 
-    <h2>Contact</h2>
-    <p>Melikşah Selvi<br />
-    <a href="mailto:meliksahselvi.engineer@gmail.com">meliksahselvi.engineer@gmail.com</a></p>
-</div>
+      <h2 id="contact">Contact Us</h2>
+      <p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at <a href="mailto:meliksahselvi.engineer@gmail.com">meliksahselvi.engineer@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Melikşah Selvi. All rights reserved.</p>
+    </footer>
+  </main>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
